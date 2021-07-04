@@ -1,0 +1,93 @@
+<resources>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="start_polling">Start polling</string>
+    <string name="stop_polling">Stop polling</string>
+    <string name="new_pictures_title">New PhotoGallery Pictures</string>
+    <string name="new_pictures_text">You have new pictures in PhotoGallery.</string>
+    <string name="bookreference">Phillips, B., Stewart, C., Marsicano, K., &amp; Big Nerd Ranch , publisher. (2017).Android programming : the Big Nerd Ranch guide / Bill Phillips, Chris Stewart and Kristin Marsicano. (Third edition.). Big Nerd Ranch.</string>
+    <string name="app_name">Group_14_Project</string>
+    <string name="rule1">List of rules:</string>
+    <string name="rule2">- There are a total of 7 cards with 3 images in each card</string>
+    <string name="rule3">- Each card will have one and only one same image</string>
+    <string name="rule4">- 1 card will be drawn from the deck at the start of the game and be put to the discard pile</string>
+    <string name="rule5">- Players must spot the same image between the discard pile and the deck pile</string>
+    <string name="rule6">- Once the image has been spot a new card will be drawn</string>
+    <string name="rule7">- Repeat the process until the deck pile is empty</string>
+    <string name="rule8">- The goal is to achieve the lowest time to get the highest score</string>
+    <string name="title_activity_option">OptionActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="options">Options</string>
+    <string name="user_name">User Name:</string>
+    <string name="Dinosaurs">Dinosaurs</string>
+    <string name="Pizza">Pizza</string>
+    <string name="author">By Felix, Gaurav, Shawn, and Supriya</string>
+    <string name="link1">
+        <a href="https://www.freepik.com/free-photos-vectors/ocean">https://www.freepik.com/free-photos-vectors/ocean</a></string>
+    <string name="link2">
+        <a href="https://www.reddit.com/r/Diepio/comments/b03cez/i_remade_the_diepio_main_menu_background/">https://www.reddit.com/r/Diepio/comments/b03cez/i_remade_the_diepio_main_menu_background/</a></string>
+    <string name="link3">
+        <a href="http://www.unplugyourself.co.za/games/spot-it/">http://www.unplugyourself.co.za/games/spot-it/</a></string>
+    <string name="link4">
+        <a href="https://unsplash.com/backgrounds/colors/gradient">https://unsplash.com/backgrounds/colors/gradient</a></string>
+    <string name="nickname">nickname</string>
+    <string name="player_nickname">Player Nickname</string>
+    <string name="you_matched_all_the_cards">You Matched all the cards..</string>
+    <string name="textview">TextView</string>
+    <string name="start">Start</string>
+    <string name="todo">TODO</string>
+    <string name="draw_card_image">draw card image</string>
+    <string name="discard_card_image">discard card image</string>
+    <string name="view_high_scores">View High Scores</string>
+    <string name="picture_theme">Picture Theme :</string>
+    <string name="reset_high_scores">Reset High Scores</string>
+    <string name="enable_words">Enable Words</string>
+    <string name="apply_image_selection">Apply Image Selection</string>
+    <string name="animals">Animals</string>
+    <string name="planets">Planets</string>
+    <string name="order">Order:</string>
+    <string name="draw_pile">Draw Pile:</string>
+    <string name="create_flickr_set">Create Flickr Set</string>
+    <string name="required">Required:</string>
+    <string name="fruits_and_veggies">Fruits and Veggies</string>
+    <string name="flickr_set">Flickr Set</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="play">Play</string>
+    <string name="option">Option</string>
+    <string name="rules">Rules</string>
+    <string name="references">References</string>
+    <string name="spot_it_image">spot it image</string>
+    <string name="remove">Remove</string>
+    <string name="remove_image_number">Remove image number :</string>
+    <string name="load_your_image_set">Load Your Image Set</string>
+    <string name="add_image">Add Image</string>
+    <string name="number_of_images">Number of Images:</string>
+    <string name="add_flickr_image">Add Flickr Image</string>
+    <string name="save_image_set">Save Image Set</string>
+    <string name="view_saved_image_sets">View Saved Image Sets</string>
+    <string name="delete">Delete</string>
+    <string name="create_image_set">Create Image Set</string>
+    <string name="apply_image_set">Apply Image Set</string>
+    <string name="set_name">Set Name:</string>
+    <!-- string arrays for option spinners -->
+    <string-array name="orders">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="drawPiles">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>All</item>
+    </string-array>
+
+</resources>
+

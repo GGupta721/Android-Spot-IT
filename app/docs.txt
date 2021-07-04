@@ -1,0 +1,6 @@
+Scrum Roles for Iteration 3
+
+Scrum Master: Felix Lionardo
+Product Owner: Gaurav Gupta
+Repo Manager: Shawn Kamonzeki
+Team Member: Supriya Dua

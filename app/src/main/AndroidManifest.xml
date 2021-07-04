@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.group_14_project">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="Spot It!"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SavedImageSets"
+            android:parentActivityName=".FlickrEdit"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".FlickrEdit"
+            android:parentActivityName=".SetImages"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".SetImages"
+            android:parentActivityName=".MainMenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Reference"
+            android:parentActivityName=".MainMenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PhotoGallery"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GameRules"
+            android:parentActivityName=".MainMenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HighScoresActivity"
+            android:parentActivityName=".SetImages"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainMenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GameScreen"
+            android:parentActivityName=".MainMenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SplashScreen"
+            android:noHistory="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".model.PollService" />
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type_of_theme">
+        <item>Dinosaurs</item>
+        <item>Pizza</item>
+    </string-array>
+</resources>
